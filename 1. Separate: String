@@ -19,5 +19,5 @@ Range("B1").value=get_string(Range("A1").value,"{")
 End Sub
 
 '===========================================================================
-' If Range("A1")'s value is "({123" , then Range("B1").value will be "123".
+' If Range("A1").value is "({123" , then Range("B1").value will be "123".
 '===========================================================================
