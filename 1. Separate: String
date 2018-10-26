@@ -1,5 +1,5 @@
 ' After setting a special character, take the string on the right.
-'==========================================
+'======================================================================
 Function get_string(data_in As String, set_string As String) As String
   Dim i, j As Integer
   
@@ -9,7 +9,7 @@ Function get_string(data_in As String, set_string As String) As String
   get_string = Right(data_in, j - i)
 
 End Function
-'==========================================
+'======================================================================
 
 Ex:
 Sub main()
