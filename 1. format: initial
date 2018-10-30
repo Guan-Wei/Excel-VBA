@@ -1,0 +1,14 @@
+Sub initial_sheet()
+
+'Initial table-IO Table
+Sheets("Result").Select 'choose sheet
+
+Cells.Select
+Selection.ClearContents 'Clear Contents
+With Selection.Interior 'Clear Color
+    .Pattern = xlNone
+    .TintAndShade = 0
+    .PatternTintAndShade = 0
+End With
+
+End Sub
