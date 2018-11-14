@@ -22,15 +22,19 @@ Function get_string_all(data_in As String, set_string As String, sel As String) 
     End Select
     
 End Function
-
 '======================================================================
 ' Code end.
 '======================================================================
+Ex:
+
+'======================================================================
+
 
 Version1: 
 '======================================================================
-' After setting a special character, take the string on the right.
+' Code begin.
 '======================================================================
+' After setting a special character, take the string on the right.
 Function get_string(data_in As String, set_string As String) As String
   Dim i, j As Integer
   
@@ -41,7 +45,8 @@ Function get_string(data_in As String, set_string As String) As String
 
 End Function
 '======================================================================
-
+' Code end.
+'======================================================================
 Ex:
 Sub main()
 
