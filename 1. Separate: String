@@ -1,3 +1,34 @@
+Version2: (2018/11/14)
+Change list:
+1. Add left item for selection:(sel As String).
+'======================================================================
+' Code begin.
+'======================================================================
+'Seperate Special char
+Function get_string_all(data_in As String, set_string As String, sel As String) As String
+    Dim i, k As Integer
+    i = 1
+    k = Len(data_in)
+    
+    i = InStr(data_in, set_string)
+    Select Case sel
+        Case Is = "right"
+            get_string_all = Right(data_in, k - i)
+        Case Is = "left"
+            get_string_all = Left(data_in, i - 1)
+        Case Else
+            MsgBox "第三個參數設定錯誤: 分別指有 'right', 'left'."
+    
+    End Select
+    
+End Function
+
+'======================================================================
+' Code end.
+'======================================================================
+
+Version1: 
+'======================================================================
 ' After setting a special character, take the string on the right.
 '======================================================================
 Function get_string(data_in As String, set_string As String) As String
