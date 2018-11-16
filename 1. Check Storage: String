@@ -1,3 +1,6 @@
+Attribute VB_Name = "Module1"
+Option Explicit
+
 Function check_all_row_nll(start_address As String, limit_number As Integer) As Boolean
     Dim i As Integer
     
