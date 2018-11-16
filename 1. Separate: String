@@ -4,6 +4,9 @@ Change list:
 '======================================================================
 ' Code begin.
 '======================================================================
+Attribute VB_Name = "Module1"
+Option Explicit
+
 'Seperate Special char
 Function get_string_all(data_in As String, set_string As String, sel As String) As String
     Dim i, k As Integer
@@ -40,6 +43,9 @@ Version1:
 '======================================================================
 ' Code begin.
 '======================================================================
+Attribute VB_Name = "Module1"
+Option Explicit
+
 ' After setting a special character, take the string on the right.
 Function get_string(data_in As String, set_string As String) As String
   Dim i, j As Integer
