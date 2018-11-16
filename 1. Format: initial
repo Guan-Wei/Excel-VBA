@@ -1,3 +1,6 @@
+Attribute VB_Name = "Module1"
+Option Explicit
+
 Sub initial_sheet()
 
 'Initial table-IO Table
