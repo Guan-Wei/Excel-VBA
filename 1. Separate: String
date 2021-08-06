@@ -1,10 +1,17 @@
 Version2: (2018/11/14)
+---------
+Location: 
+---------
+module
+
+---------
 Change list:
+---------
 1. Add left item for selection:(sel As String).
+
 '======================================================================
 ' Code begin.
 '======================================================================
-Attribute VB_Name = "Module1"
 Option Explicit
 
 'Seperate Special char
@@ -40,10 +47,14 @@ End Sub
 
 
 Version1: 
+---------
+Location: 
+---------
+module
+
 '======================================================================
 ' Code begin.
 '======================================================================
-Attribute VB_Name = "Module1"
 Option Explicit
 
 ' After setting a special character, take the string on the right.
