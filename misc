@@ -2,6 +2,6 @@
 1. screen updating
 Application.ScreenUpdating = False 'turn OFF screen updating
 
-Application.ScreenUpdating = False 'turn OFF screen updating
+Application.ScreenUpdating = True 'turn ON screen updating
 
 ----
