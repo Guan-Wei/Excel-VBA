@@ -12,7 +12,7 @@ Option Explicit
 Sub initial_sheet()
 
 'Initial table-IO Table
-Sheets("Result").Select 'choose sheet
+'Sheets("Result").Select 'choose sheet
 
 Cells.Select
 Selection.ClearContents 'Clear Contents
