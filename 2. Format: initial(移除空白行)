@@ -1,5 +1,11 @@
+---------
+Location: 
+---------
+module
 
-Attribute VB_Name = "Module1"
+---------
+code:
+---------
 Option Explicit
 Sub remove()
 '======================================
