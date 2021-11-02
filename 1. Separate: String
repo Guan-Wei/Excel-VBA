@@ -12,6 +12,8 @@ Change list:
 '======================================================================
 ' Code begin.
 '======================================================================
+<pre><code>
+<p>
 Option Explicit
 
 'Seperate Special char
@@ -32,6 +34,9 @@ Function get_string_all(data_in As String, set_string As String, sel As String) 
     End Select
     
 End Function
+</p>
+</code></pre>
+
 '======================================================================
 ' Code end.
 '======================================================================
