@@ -28,7 +28,7 @@ Function get_string_all(data_in As String, set_string As String, sel As String) 
         Case Is = "left"
             get_string_all = Left(data_in, i - 1)
         Case Else
-            MsgBox "第三個參數設定錯誤: 分別指有 'right', 'left'."
+            MsgBox "第三個參數設定錯誤: 只有 'right', 'left'."
     
     End Select
     
