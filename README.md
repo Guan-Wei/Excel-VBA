@@ -16,3 +16,4 @@
 <h2>未分類</h2>
 
 - [螢幕取消/顯示](https://github.com/Guan-Wei/Excel-VBA/blob/master/screen%20updating)
+- [格式清除](https://github.com/Guan-Wei/Excel-VBA/blob/master/Format:%20initial)
