@@ -32,12 +32,6 @@ Loop
 
 End Sub
 
-If check_all_row_nll(Range("A1").Offset(字串計數_i, 0).address, 設定限制空格範圍) Then
-    'Range("A1").Offset(0, 0).Interior.Color = RGB(255, 255, 0)
-    'Range("A1").Offset(0, 0).Select
-    Rows(1).Delete
-End If
-
 Function check_all_row_nll(start_address As String, limit_number As Integer) As Boolean
     Dim i As Integer
     
