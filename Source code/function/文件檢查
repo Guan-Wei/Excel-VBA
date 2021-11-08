@@ -1,0 +1,89 @@
+
+---------
+Location: 
+---------
+module
+
+'======================================================================
+' Code begin.
+'======================================================================
+
+'確認分頁
+Function 文件檢查(分頁1 As String, _
+                  分頁2 As String, _
+                  分頁3 As String, _
+                  資料來源路徑1 As String, _
+                  資料來源路徑2 As String) As Boolean
+    
+    文件檢查 = True
+    
+    '確認分頁是否存在 begin
+     If checkSheetName(分頁1) = True Then
+     'Null
+     Else
+        文件檢查 = False
+        MsgBox 分頁1 + "不存在"
+        Exit Function
+     End If
+     
+     If checkSheetName(分頁2) = True Then
+     'Null
+     Else
+        文件檢查 = False
+        MsgBox 分頁2 + "不存在"
+        Exit Function
+     End If
+     
+     If checkSheetName(分頁3) = True Then
+     'Null
+     Else
+        文件檢查 = False
+        MsgBox 分頁3 + "不存在"
+        Exit Function
+     End If
+     
+     '確認分頁是否存在 end
+     
+     '確認值是否正確 begin
+     If 資料來源路徑1 <> "" Then
+     'Null
+     Else
+        文件檢查 = False
+        MsgBox "請填寫 - 檔案路徑(資料來源1)"
+        Exit Function
+     End If
+     
+     If 資料來源路徑2 <> "" Then
+     'Null
+     Else
+        文件檢查 = False
+        MsgBox "請填寫 - 檔案路徑(資料來源2)"
+        Exit Function
+     End If
+      
+      '確認值是否正確 end
+
+End Function
+
+Function checkSheetName(sheetname)
+        '檢查分頁是否存在
+        'reference_code: http://wordpress.bestdaylong.com/blog/archives/719
+        
+        Dim isfind As Boolean
+        Dim st As Worksheet
+        
+        isfind = False
+        For Each st In Worksheets
+            If st.Name = sheetname Then
+               isfind = True
+               Exit For
+            End If
+        Next
+        checkSheetName = isfind
+End Function
+
+'======================================================================
+' Code end.
+'======================================================================
+
+
