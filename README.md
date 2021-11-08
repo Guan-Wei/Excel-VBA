@@ -7,6 +7,7 @@
     - [Separate: String](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/Separate:%20String)
 - [資料處理]
     - [negative peak](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/negative%20peak)
+    - [文件檢查](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/%E6%96%87%E4%BB%B6%E6%AA%A2%E6%9F%A5)
 
 <h2> Module - Sub</h2>
 
