@@ -45,6 +45,7 @@ Function 文件檢查(分頁1 As String, _
      '確認分頁是否存在 end
      
      '確認值是否正確 begin
+     'Just check null or not
      If 資料來源路徑1 <> "" Then
      'Null
      Else
@@ -53,6 +54,7 @@ Function 文件檢查(分頁1 As String, _
         Exit Function
      End If
      
+     'Just check null or not
      If 資料來源路徑2 <> "" Then
      'Null
      Else
