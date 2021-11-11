@@ -17,4 +17,5 @@
 <h2>未分類</h2>
 
 - [螢幕取消/顯示](https://github.com/Guan-Wei/Excel-VBA/blob/master/screen%20updating)
+- [隱藏\取消隱藏工作表](https://github.com/Guan-Wei/Excel-VBA/blob/master/%E9%9A%B1%E8%97%8F%5C%E5%8F%96%E6%B6%88%E9%9A%B1%E8%97%8F%E5%B7%A5%E4%BD%9C%E8%A1%A8)
 - [格式清除](https://github.com/Guan-Wei/Excel-VBA/blob/master/Format:%20initial)
