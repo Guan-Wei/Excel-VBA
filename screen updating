@@ -1,4 +1,3 @@
-
 Example:
 
 Application.ScreenUpdating = False 'turn OFF screen updating
