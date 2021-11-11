@@ -1,7 +1,5 @@
 
-1. screen updating
+Example:
+
 Application.ScreenUpdating = False 'turn OFF screen updating
-
 Application.ScreenUpdating = True 'turn ON screen updating
-
-----
