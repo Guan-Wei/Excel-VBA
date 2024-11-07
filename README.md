@@ -4,7 +4,7 @@
 <h2> Module - Function</h2>
 
 - [字串處理]
-    - [Separate: String](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/Separate:%20String)
+    - [Separate: String](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/Separate_String.vba)
 - [資料處理]
     - [negative peak](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/negative_peak.vba)
     - [文件檢查](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/file_check_exit.vba)
