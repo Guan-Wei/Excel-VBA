@@ -6,7 +6,7 @@
 - [字串處理]
     - [Separate: String](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/Separate:%20String)
 - [資料處理]
-    - [negative peak](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/negative_peak.vba))
+    - [negative peak](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/negative_peak.vba)
     - [文件檢查](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/file_check_exit.vba)
 
 <h2> Module - Sub</h2>
@@ -16,6 +16,6 @@
     - 
 <h2>未分類</h2>
 
-- [螢幕取消/顯示](https://github.com/Guan-Wei/Excel-VBA/blob/master/screen%20updating)
+- [螢幕取消/顯示](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/other/screen%20updating.vba)
 - [隱藏\取消隱藏工作表](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/other/sheet_visible_cancel.vba)
 - [格式清除](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/Sub/sheet_format_initial.vba)
