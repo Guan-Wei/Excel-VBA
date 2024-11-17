@@ -1,8 +1,8 @@
 # Excel-VBA
 
 <h2>naming limit:</h2>
-- item1: #,$,%,&,!
-- item2: not over 254
+ - item1: #,$,%,&,!
+ - item2: not over 254
 
 <h2> Module - Function</h2>
 
