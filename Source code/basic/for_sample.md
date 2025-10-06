@@ -1,4 +1,4 @@
-***[For - next]:***
+***[For - to - next]:***
 
 ``` base
 Sub for_test()
@@ -12,7 +12,7 @@ Sub for_test()
 End Sub
 ```
 
-***[For - step - next]:***
+***[For - to - step - next]:***
 ``` base
 Sub for_test2()
     Dim i As Integer
