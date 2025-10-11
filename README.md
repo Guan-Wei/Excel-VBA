@@ -8,6 +8,7 @@
 
 - [字串處理]
     - [Separate: String](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/Separate_String.bas)
+    - [seperate_netname](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/seperate_netname.bas)
 - [資料處理]
     - [file name](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/file_name.md)
     - [backslash_to_forward_slash](https://github.com/Guan-Wei/Excel-VBA/blob/master/Source%20code/function/backslash_to_forward_slash.md)
